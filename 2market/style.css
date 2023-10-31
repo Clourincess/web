@@ -1,0 +1,167 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+* {
+    margin: 0;
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 26px 28px 0px 28px;
+    
+}
+
+.head1 p {
+    color: #22202E;
+    font-family: Clash Display;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.navigation {
+    display: flex;
+    gap: 16px;
+}
+
+.head2 {
+    margin-top: 40px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 44px;
+}
+
+.head2 li {
+    margin: 10px;
+    color: #726E8D;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.head3 {
+    margin-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.cards {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+
+.card1 img {
+    margin-bottom: 26px;
+}
+
+.card1 p {
+    margin-bottom: 8px;
+
+    color: var(--Dark-Primary, #2A254B);
+    font-family: Clash Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.card1 p2 {
+    color: var(--Dark-Primary, #2A254B);
+
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.btn_more {
+    color: #2A254B;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 16px;
+    background: var(--Light-Grey, #F9F9F9);
+    width: max-content;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 36px;
+}
+
+.btn_more:hover {
+    cursor: pointer;
+}
+
+footer {
+    background: var(--Dark-Primary, #2A254B);
+}
+
+.lists {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-left: 58px;
+    margin-right: 83px;
+}
+
+.lists ul{
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.lists li:first-child {
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    
+}
+
+.lists li {
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    
+}
+
+.links {
+    margin-top: 58px;
+}
+
+.textbox {
+    background: #494974;
+    width: 627px;
+    height: 56px;
+    border: none;
+}
+
+.list4 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
