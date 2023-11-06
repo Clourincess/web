@@ -20,19 +20,3 @@ function zero_first_format(value)
     setInterval (function () {
         document.getElementById('current_date_time_block').innerHTML = date_time();
     }, 1000);
-
-
-// const swiper = new Swiper('.sample-slider', {
-//     loop: true,
-//     slidesPerView: 3,
-//     centeredSlides: true,
-//     effect: "coverflow",
-//     pagination: {
-//         el: '.swiper-pagination',
-//     },
-//     navigation: {
-//         nextEl: ".swiper-button-next",
-//         prevEl: ".swiper-button-prev",
-//     },
-// })
-

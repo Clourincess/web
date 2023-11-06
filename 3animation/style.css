@@ -1,651 +1,670 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;600&family=Iceland&family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Iceland&family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;600&family=Iceberg&family=Iceland&family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;600&family=Iceland&family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Iceland&family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;600&family=Iceberg&family=Iceland&family=Lato&display=swap");
 
 * {
-    margin: 0px;
+  margin: 0px;
 }
 
 body {
-    margin-left: 78px;
-    margin-right: 78px;
-    min-height: 100vh;
-    background: rgb(0,0,0);
-    background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 93%, rgba(232,74,74) 100%);
-    background-repeat: no-repeat;
+  margin-left: 78px;
+  margin-right: 78px;
+  min-height: 100vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 93%,
+    rgba(232, 74, 74) 100%
+  );
+  background-repeat: no-repeat;
 }
 
 .hello {
-    font-family: Big Shoulders Display;
-    font-size: 538px;
-    font-weight: 743;
-    line-height: 644px;
-    letter-spacing: -0.06em;
-    text-align: left;
-    color: #E84A4A;
-    margin-left: 314px;
-    margin-top: 218px;
+  font-family: Big Shoulders Display;
+  font-size: 538px;
+  font-weight: 743;
+  line-height: 644px;
+  letter-spacing: -0.06em;
+  text-align: left;
+  color: #e84a4a;
+  margin-left: 314px;
+  margin-top: 218px;
 }
 
 .hometext {
-    display: flex;
+  display: flex;
 }
 
 .maintext {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    gap: 45px;
-    width: 734px;
-    height: 121px;
-    margin-left: 84px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 45px;
+  width: 734px;
+  height: 121px;
+  margin-left: 84px;
 }
 
 .maintext p:first-child {
-    font-family: Iceland;
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0.075em;
-    text-align: left;
-    color: white;
+  font-family: Iceland;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.075em;
+  text-align: left;
+  color: white;
 }
 
 .maintext p {
-    font-family: Iceland;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0.075em;
-    text-align: left;
-    color: white;
+  font-family: Iceland;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.075em;
+  text-align: left;
+  color: white;
 }
 
 .maintext a {
-    text-decoration: none;
-    font-family: Big Shoulders Display;
-    font-size: 22px;
-    font-weight: 743;
-    line-height: 26px;
-    letter-spacing: 0.075em;
-    text-align: left;
-    color: #E84A4A;
-    border-color:#E84A4A;
-    border-style: solid;
-    border-width: 2px;
-    
-    width: max-content;
-    padding: 15px 51px 15px 51px;
+  text-decoration: none;
+  font-family: Big Shoulders Display;
+  font-size: 22px;
+  font-weight: 743;
+  line-height: 26px;
+  letter-spacing: 0.075em;
+  text-align: left;
+  color: #e84a4a;
+  border-color: #e84a4a;
+  border-style: solid;
+  border-width: 2px;
+
+  width: max-content;
+  padding: 15px 51px 15px 51px;
 }
 
 header {
-    margin: 40px 78px 0px 78px;
+  margin: 40px 78px 0px 78px;
 }
 
 .bio {
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
 }
 
 .level {
-    display: flex;
-    gap: 10px;
-    align-items: end;
+  display: flex;
+  gap: 10px;
+  align-items: end;
 }
 
 .level p:first-child {
-    font-family: Big Shoulders Display;
-    font-size: 26px;
-    font-weight: 743;
-    line-height: 31px;
-    letter-spacing: 0.075em;
-    text-align: left;
-    color: #7DFF68;
+  font-family: Big Shoulders Display;
+  font-size: 26px;
+  font-weight: 743;
+  line-height: 31px;
+  letter-spacing: 0.075em;
+  text-align: left;
+  color: #7dff68;
 }
 
 .level p {
-    font-family: Big Shoulders Display;
-    font-size: 16px;
-    font-weight: 743;
-    line-height: 19px;
-    letter-spacing: 0.075em;
-    text-align: left;
-    color: rgba(255, 255, 255, 0.7);
+  font-family: Big Shoulders Display;
+  font-size: 16px;
+  font-weight: 743;
+  line-height: 19px;
+  letter-spacing: 0.075em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .coins {
-    display: flex;
-    gap: 10px;
-    align-items: end;
+  display: flex;
+  gap: 10px;
+  align-items: end;
 }
 
 .coins p:first-child {
-    font-family: Big Shoulders Display;
-    font-size: 26px;
-    font-weight: 743;
-    line-height: 31px;
-    letter-spacing: 0.075em;
-    text-align: left;
-    color: #7DFF68;
+  font-family: Big Shoulders Display;
+  font-size: 26px;
+  font-weight: 743;
+  line-height: 31px;
+  letter-spacing: 0.075em;
+  text-align: left;
+  color: #7dff68;
 }
 
 .coins p {
-    font-family: Big Shoulders Display;
-    font-size: 16px;
-    font-weight: 743;
-    line-height: 19px;
-    letter-spacing: 0.075em;
-    text-align: left;
-    color: rgba(255, 255, 255, 0.7);
+  font-family: Big Shoulders Display;
+  font-size: 16px;
+  font-weight: 743;
+  line-height: 19px;
+  letter-spacing: 0.075em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .bio a {
-    text-decoration: none;
-    color: white;
-    font-family: Iceberg;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0.075em;
-    text-align: left;
+  text-decoration: none;
+  color: white;
+  font-family: Iceberg;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.075em;
+  text-align: left;
 }
 
 .time p:nth-child(2n + 1) {
-    color: rgba(255, 255, 255, 0.7);
-    margin-left: 27px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-left: 27px;
 }
 
 .time p {
-    color: white;
-    font-family: Iceland;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.075em;
-    text-align: left;
+  color: white;
+  font-family: Iceland;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.075em;
+  text-align: left;
 }
 
 .time {
-    display: flex;
+  display: flex;
 }
 
 .scores {
-    display: flex;
-    gap: 50px;
+  display: flex;
+  gap: 50px;
 }
 
 .local {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 main {
-    display: flex;
-    margin-top: 35px;
+  display: flex;
+  margin-top: 35px;
 }
 
 .icon img {
-    width: 164px;
-    height: 148px;
+  width: 164px;
+  height: 148px;
 }
 
 .icon {
-    margin-bottom: 20px;
-    width: max-content;
-    display: flex;
-    border-color: rgba(232, 74, 74, 0.7);
-    border-style:solid;
-    border-width: 1px;
-    padding: 15px;
-    align-items: center;
-    
+  margin-bottom: 20px;
+  width: max-content;
+  display: flex;
+  border-color: rgba(232, 74, 74, 0.7);
+  border-style: solid;
+  border-width: 1px;
+  padding: 15px;
+  align-items: center;
 }
 
 .person p:nth-child(2n + 1) {
-    color: white;
-    font-family: Iceland;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.075em;
-    text-align: left;
+  color: white;
+  font-family: Iceland;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.075em;
+  text-align: left;
 }
 
 .person p {
-    font-family: Big Shoulders Display;
-    font-size: 18px;
-    font-weight: 743;
-    line-height: 22px;
-    letter-spacing: 0.075em;
-    text-align: left;
-    color: #E84A4A;
-    margin-top: 5px;
+  font-family: Big Shoulders Display;
+  font-size: 18px;
+  font-weight: 743;
+  line-height: 22px;
+  letter-spacing: 0.075em;
+  text-align: left;
+  color: #e84a4a;
+  margin-top: 5px;
 }
 
 .person {
-    display: flex;
-    flex-direction: column;
-    gap: 22px;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  justify-content: space-between;
 }
 
 .availability {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .availability a {
-    text-decoration: none;
-    color: black;
-    font-family: Big Shoulders Display;
-    font-size: 18px;
-    margin-top: 3px;
-    padding-left: 5px;
-    font-weight: 743;
-    line-height: 22px;
-    letter-spacing: 0.075em;
-    text-align: left;
-    background: url(media/Subtract.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
+  text-decoration: none;
+  color: black;
+  font-family: Big Shoulders Display;
+  font-size: 18px;
+  margin-top: 3px;
+  padding-left: 5px;
+  font-weight: 743;
+  line-height: 22px;
+  letter-spacing: 0.075em;
+  text-align: left;
+  background: url(media/Subtract.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .social {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .link {
-    display: flex;
-    margin-top: 3px;
-    border-style: solid;
-    border-color: rgba(232, 74, 74, 0.7);
-    border-width: 1px;
-    align-items: center;
-    padding: 5px;
-    gap: 30px;
-    width: fit-content;
+  display: flex;
+  margin-top: 3px;
+  border-style: solid;
+  border-color: rgba(232, 74, 74, 0.7);
+  border-width: 1px;
+  align-items: center;
+  padding: 5px;
+  gap: 30px;
+  width: fit-content;
 }
 
 .link a {
-    text-decoration: none;
-    color: #E84A4A;
-    font-family: Big Shoulders Display;
-    font-size: 18px;
-    font-weight: 743;
-    line-height: 22px;
-    letter-spacing: 0.075em;
-    text-align: left;
-    margin-top: 3px;
+  text-decoration: none;
+  color: #e84a4a;
+  font-family: Big Shoulders Display;
+  font-size: 18px;
+  font-weight: 743;
+  line-height: 22px;
+  letter-spacing: 0.075em;
+  text-align: left;
+  margin-top: 3px;
 }
 
 .mainframe {
-    margin-left: 16px;
-    background-image: url(media/kit.png);
-    border-color: rgba(232, 74, 74, 0.7);
-    border-style:solid;
-    border-width: 1px;
-    width: 1344px;
-    height: 896px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    gap: 9px;
-    align-items: center;
+  margin-left: 16px;
+  background-image: url(media/kit.png);
+  border-color: rgba(232, 74, 74, 0.7);
+  border-style: solid;
+  border-width: 1px;
+  width: 1344px;
+  height: 896px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: center;
 }
 
 .mainframe p:first-child {
-    font-family: Iceland;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0.075em;
-    text-align: left;
-    color: white;
-    margin-top: 40px;
+  font-family: Iceland;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.075em;
+  text-align: left;
+  color: white;
+  margin-top: 40px;
 }
 
 .text1 {
-    display: flex;
-    justify-self: flex-end;
-    
+  display: flex;
+  justify-self: flex-end;
 }
 
 .mainframe p {
-    font-family: Iceland;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.075em;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.7);
+  font-family: Iceland;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.075em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .active {
-    background: url(media/Subtract3.svg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    width: 196px;
-    height: 23px;
+  background: url(media/Subtract3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 196px;
+  height: 23px;
 }
 
 .active p:first-child {
-    font-family: Big Shoulders Display;
-    font-size: 18px;
-    font-weight: 743;
-    line-height: 22px;
-    letter-spacing: 0.075em;
-    text-align: left;
-
+  font-family: Big Shoulders Display;
+  font-size: 18px;
+  font-weight: 743;
+  line-height: 22px;
+  letter-spacing: 0.075em;
+  text-align: left;
 }
 
 .active p {
-    font-family: Iceland;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding-top: 1px;
+  font-family: Iceland;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 1px;
 }
 
 .quests p:first-child {
-    color: white;
-    font-family: Big Shoulders Display;
-    font-size: 18px;
-    font-weight: 743;
-    line-height: 22px;
-    letter-spacing: 0.075em;
-    text-align: left;
+  color: white;
+  font-family: Big Shoulders Display;
+  font-size: 18px;
+  font-weight: 743;
+  line-height: 22px;
+  letter-spacing: 0.075em;
+  text-align: left;
 }
 
 .quests p {
-    color: rgba(255, 255, 255, 0.7);
-    font-family: Iceland;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding-left: 10px;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Iceland;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 10px;
 }
 
 .quests {
-    display: flex;
-    margin-left: 16px;
-    flex-direction: column;
-    gap: 25px;
-    border-left-style: solid;
-    border-color: rgba(232, 74, 74, 0.7);
-    border-width: 3px;
-    height: max-content;
-    
+  display: flex;
+  margin-left: 16px;
+  flex-direction: column;
+  gap: 25px;
+  border-left-style: solid;
+  border-color: rgba(232, 74, 74, 0.7);
+  border-width: 3px;
+  height: max-content;
 }
 
-.quest_name p:first-child{
-    color: white;
-    font-family: Iceland;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.075em;
-    text-align: left;
+.quest_name p:first-child {
+  color: white;
+  font-family: Iceland;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.075em;
+  text-align: left;
 }
 
 .quest_name p {
-    color: #E84A4A;
-    font-family: Big Shoulders Display;
-    font-size: 18px;
-    font-weight: 743;
-    line-height: 22px;
-    letter-spacing: 0.075em;
-    text-align: left;
+  color: #e84a4a;
+  font-family: Big Shoulders Display;
+  font-size: 18px;
+  font-weight: 743;
+  line-height: 22px;
+  letter-spacing: 0.075em;
+  text-align: left;
 }
 
 .goal p:first-child {
-    color: white;
-    font-family: Iceland;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.075em;
-    text-align: left;
+  color: white;
+  font-family: Iceland;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.075em;
+  text-align: left;
 }
 
 .goal p {
-    color: rgba(255, 255, 255, 0.7);
-    font-family: Iceland;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Iceland;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .rewards > p {
-    color: red;
-    font-family: Iceland;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.075em;
-    text-align: left;
-    /* color: white; */
+  color: red;
+  font-family: Iceland;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.075em;
+  text-align: left;
+  /* color: white; */
 }
 
 .rewards {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .achives {
-    display: flex;
-    gap: 10px;
-    padding-left: 5px;
+  display: flex;
+  gap: 10px;
+  padding-left: 5px;
 }
 
 .achive1 p {
-    font-family: Iceland;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.075em;
-    text-align: left;
-    color: rgba(255, 255, 255, 0.7);
+  font-family: Iceland;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.075em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .achive2 p {
-    font-family: Iceland;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.075em;
-    text-align: left;
-    color: rgba(255, 255, 255, 0.7);
+  font-family: Iceland;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.075em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .text1 {
-    display: flex;
-    flex-direction: column;
-    margin-top: -65px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -65px;
 }
 
 .text1 p:first-child {
-    font-family: Iceland;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0.075em;
-    color: #E84A4A;
+  font-family: Iceland;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.075em;
+  color: #e84a4a;
 }
 
 .text1 p {
-    font-family: Iceland;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0.075em;
-    color: rgba(255, 255, 255, 0.7);
+  font-family: Iceland;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.075em;
+  color: rgba(255, 255, 255, 0.7);
 }
-
 
 .tabs {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    position: relative;
-    top: -23px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  position: relative;
+  top: -23px;
 }
 
-.beginning:first-of-type a{
-    background: url(media/Subtract4.svg);
+.beginning:first-of-type a {
+  background: url(media/Subtract4.svg);
 }
 
-.beginning a{
-    display: flex;
-    text-decoration: none;
-    background: url(media/Subtract2.svg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: right;
-    height: 23px;
-    width: 100%;
-    font-family: Big Shoulders Display;
-    color: white;
-    font-size: 18px;
-    font-weight: 743;
-    line-height: 22px;
-    letter-spacing: 0.075em;
-
-
-    padding-left: 10px;
-    padding-right: 30px;
+.beginning a {
+  display: flex;
+  text-decoration: none;
+  background: url(media/Subtract2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 23px;
+  width: 100%;
+  font-family: Big Shoulders Display;
+  color: white;
+  font-size: 18px;
+  font-weight: 743;
+  line-height: 22px;
+  letter-spacing: 0.075em;
+  padding-left: 10px;
+  padding-right: 30px;
 }
-
 
 .beginning p {
-    font-family: Iceland;
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 7px;
-    font-weight: 400;
-    line-height: 7px;
-    letter-spacing: 0.075em;
-    text-align: left;
-    padding-top: 5px;
-    padding-left: 5px;
+  font-family: Iceland;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 7px;
+  font-weight: 400;
+  line-height: 7px;
+  letter-spacing: 0.075em;
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 5px;
 }
-
 
 .beginning:first-of-type {
-    border-color: rgba(232, 74, 74, 0.7);
+  border-color: rgba(232, 74, 74, 0.7);
 }
 
-.beginning{
-    min-width: 100px;
-    border-left-style: solid;
-    border-color: rgba(255, 255, 255, 0.7);
-    border-width: 3px;
-    height: max-content;
+.beginning {
+  min-width: 100px;
+  border-left-style: solid;
+  border-color: rgba(255, 255, 255, 0.7);
+  border-width: 3px;
+  height: max-content;
 }
 
 .settings p {
-    color: #E84A4A;
-    font-family: Big Shoulders Display;
-    font-size: 18px;
-    font-weight: 743;
-    line-height: 22px;
-    letter-spacing: 0.075em;
-    text-align: left;
-
+  color: #e84a4a;
+  font-family: Big Shoulders Display;
+  font-size: 18px;
+  font-weight: 743;
+  line-height: 22px;
+  letter-spacing: 0.075em;
+  text-align: left;
 }
 
 .settings {
-    margin-left: 16px;
-    display: flex;
-    flex-direction: column;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
 }
 .sett {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 .rightblock {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.popup p:first-of-type{
-    color: white;
-    font-family: Big Shoulders Display;
-    font-size: 18px;
-    font-weight: 743;
-    line-height: 22px;
-    letter-spacing: 0.075em;
-    text-align: left;
+.popup p:first-of-type {
+  color: white;
+  font-family: Big Shoulders Display;
+  font-size: 18px;
+  font-weight: 743;
+  line-height: 22px;
+  letter-spacing: 0.075em;
+  text-align: left;
 }
 
 .pad1 {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: min-content;
+  border: white 1px solid;
 }
 
 .popup p {
-    font-family: Iceland;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0.075em;
-    text-align: left;
-    color: #B2B7BA;
-
+  font-family: Iceland;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.075em;
+  text-align: left;
+  color: #b2b7ba;
 }
 
 .window {
-    display: flex;
-    flex-direction: column;
-    width: 500px;
-    height: min-content;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: min-content;
+  font-family: Big Shoulders Display;
+  font-size: 18px;
+  font-weight: 743;
+  line-height: 22px;
+  letter-spacing: 0.075em;
+  background: #e84a4a17;
+  border: #333333 solid 1px;
+  background-size: contain;
+}
+
+.window p {
+  display: flex;
+  color: rgba(232, 74, 74, 0.7);
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.window input {
+  min-width: 405px;
+  min-height: 45px;
+  background: black;
+  border: #333333 solid 1px;
+  color: #7a7a7a;
+  font-family: Iceberg;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.075em;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
+.data input {
+  height: 300px;
+}
+
+.btns a {
+    text-decoration: none;
     font-family: Big Shoulders Display;
     font-size: 18px;
     font-weight: 743;
     line-height: 22px;
     letter-spacing: 0.075em;
-    background: #E84A4A17;
-    border: #333333 solid 1px;
-    background-size: contain;
-    
-    
-
+    background: #E84A4A;
+    color: black;
+    border: 1px solid #262626;
+    padding: 10px;
+    width: 43%;
+    text-align: center;
 }
 
-.window p {
-    display: flex;
-    color: rgba(232, 74, 74, 0.7);
-    margin-top: 30px;
-    margin-left: 40px;
-}
-
-.window input {
-    min-width: 405px;
-    min-height: 45px;
+.btns a:last-of-type {
     background: black;
-    border: #333333 solid 1px;
-    color: #7A7A7A;
-    font-family: Iceberg;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
-    letter-spacing: 0.075em;
-    margin-top: 10px;
-    margin-left: 40px;
-    margin-bottom: 50px;
+    color: #E84A4A;
 }
 
-.data input {
-    height: 300px;
+.btns {
+    display: flex;
+    justify-content: space-between;
 }
